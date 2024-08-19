@@ -9,7 +9,7 @@
 }
 header{
     padding:40px;
-    background-image: url("header.jpg");
+    background-color: rgba(0, 0, 0, 0.815);
     border-radius: 15px;
     background-position:center center;
     padding-bottom:20px;
