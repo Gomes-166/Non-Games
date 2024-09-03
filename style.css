@@ -15,6 +15,13 @@ header{
    
       }
 
+#burg{
+    background-color: rgb(70, 70, 70);
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
 main img{
     width: 100%;
 }      
@@ -29,10 +36,14 @@ main img{
     font-family:Georgia, 'Times New Roman', Times, serif;
     line-height: 1.5em;
  }
+ li{
+    display: inline;
+ }
 
  nav{
     margin-top: 15px;
     align-items: center;
+    display: none;
     
  }
 
@@ -42,12 +53,14 @@ nav a:hover{
     border-radius: 4px;
     transition: 1.5ms;
     text-transform: uppercase;
+    cursor: pointer;
    
  }
 
 nav a{
     margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.637 );
+    cursor: pointer;
    
  }
 body a{
