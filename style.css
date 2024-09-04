@@ -37,7 +37,8 @@ main img{
     line-height: 1.5em;
  }
  li{
-    display: inline;
+    text-align: center;
+    padding: 5px;
  }
 
  nav{
