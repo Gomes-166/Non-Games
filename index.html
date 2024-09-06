@@ -29,7 +29,7 @@
         </menu>
         
 
-<main onclick="clicar()"> 
+<main id="tela" onclick="clicar()"> 
     <article>
     
     <h2>Os melhores do Ano</h2>
@@ -115,9 +115,11 @@
             }
            
           }
-         
+        tela.addEventListener("click",clicar)
         function clicar(){
-
+        tela.style.background='green'
+        }if(tela.style.background == 'green'){
+            tela.style.background ='white'
         }
 
         </script>
